@@ -2,6 +2,7 @@
 -----------------------------------------------------
 <details>
 <summary>**Player & Target frames:**</summary>
+![Иллюстрация к проекту](https://i.ibb.co/8bh0pSY/Player-Target.jpg "Player&Target")
 ![Image alt](https://i.ibb.co/8bh0pSY/Player-Target.jpg "Player&Target")
 ![Image alt](https://i.ibb.co/7S1Q8L2/Player-Target2.jpg "Player&Target")
 </details>

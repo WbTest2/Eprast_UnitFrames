@@ -1,0 +1,21 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Core\Init.lua"/>
+	<Script file="Core\Default.lua"/>
+
+	<Script file="Config\Settings.lua"/>
+	<Script file="Core\API.lua"/>
+	
+	<Script file="UnitFrames\PlayerFrame.lua"/>
+	<Script file="UnitFrames\TargetFrame.lua"/>
+	<Script file="UnitFrames\PartyFrame.lua"/>
+	<Script file="UnitFrames\BossFrame.lua"/>
+	<Script file="UnitFrames\ArenaFrame.lua"/>
+	<Script file="UnitFrames\ClassColor.lua"/>
+	
+	<Script file="Core\FramePositions.lua"/>
+	
+	<Script file="Modules\HealthPercentage.lua"/>
+	<Script file="Modules\ArenaFrame_Trinkets.lua"/>
+	
+	<Script file="Core\Commands.lua"/>
+</Ui>

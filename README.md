@@ -2,20 +2,24 @@
 -----------------------------------------------------
 <details>
 <summary>**Player & Target frames:**</summary>
-![Image alt](https://i.ibb.co/8bh0pSY/Player-Target.jpg "Player&Target")
+  
+![Image alt](https://i.ibb.co/8bh0pSY/Player-Target.jpg "Player&Target")  
 ![Image alt](https://i.ibb.co/7S1Q8L2/Player-Target2.jpg "Player&Target")
 </details>
 <details>
 <summary>**Party frames:**</summary>
+  
 ![Image alt](https://i.ibb.co/N18hLQ9/Party-Frame.jpg  "Party")
 </details>
 <details>
 <summary>**Boss frames:**</summary>
+  
 ![Image alt](https://i.ibb.co/Z2QXppT/Boss2.jpg "Boss")
 </details>
 <details>
 <summary>**Arena frames:**</summary>
-![Image alt](https://i.ibb.co/BfDbMhP/Arena.jpg "Arena")
+  
+![Image alt](https://i.ibb.co/600RLBn/Screenshot-1.jpg "Arena")
 </details>
 -----------------------------------------------------
 

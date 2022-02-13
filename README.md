@@ -38,7 +38,6 @@
 = PlayerFrame =
 - `C["PlayerFramePoint"]` = **{"TOPLEFT", UIParent, "TOPLEFT", 239, -4}** - Позиция PlayerFrame (только если ***C["SetPositions"] = true***)
 - `C["PlayerNameOffset"]` = **{0, 0}** - Смещение Имени **Player** по осям x,y
-- `C["styleFont"]` = **true** - Шрифт для петов*
 
 = TargetFrame =
 - `C["TargetFramePoint"]` = **{"TOPLEFT", UIParent, "TOPLEFT", 509, -4}** - Позиция TargetFrame (только если ***C["SetPositions"] = true***)
@@ -47,14 +46,15 @@
 = FocusFrame =
 - `C["FocusScale"]` = **0.8** - Маштаб **FocusFrame**
 - `C["FocusSpellBarScale"]` = **1.2** - Маштаб **Кастбара** для **FocusFrame**
-- `C["FocusAuraLimit"]` = false - Установить свой лимит кол-ва Бафов\ДеБафов *(true/false)*
+- `C["FocusAuraLimit"]` = **false** - Установить свой лимит кол-ва Бафов\ДеБафов *(true/false)*
 - `C["Focus_maxDebuffs"]` = **0** - Лимит на максимальное количество ДеБафов (только если ***C["FocusAuraLimit"]` = true***)
 - `C["Focus_maxBuffs"]` = **0** - Лимит на максимальное количество Бафов (только если ***C["FocusAuraLimit"]` = true***)
 
 = PartyFrame =
+- `C["PartyFrameOn"]` = **true** - Включить модификацию патифреймов *(true/false)* 
 - `C["PartyMemberFramePoint"]` = **{"TOPLEFT", UIParent, "TOPLEFT", 10, -160}** - - Позиция PartyFrame (только если ***C["SetPositions"] = true***)
-- `C["PartyMemberFrameSpacing"]` = **15** - Отступ между фреймами
-- `C["PartyFrameScale"]` = **1.1** - Маштаб PartyFrame
+- `C["PartyMemberFrameSpacing"]` = **0** - Отступ между фреймами
+- `C["PartyFrameScale"]` = **1.0** - Маштаб PartyFrame
 - `C["PartyFrameFont"]` = **{"Fonts\\\FRIZQT__.TTF", 9, "OUTLINE"}** - Шрифт (Имя с путем, размер шрифта, граница шрифта)
 
 = BossFrame =
@@ -63,10 +63,12 @@
 
 = ArenaFrame =
 - `C["ArenaFrameOn"]` = **false** - Включить модификацию аренафреймов *(true/false)*
-- `C["ArenaFramePoint"]` = **{"TOPRIGHT", UIParent, "TOPRIGHT", -20, -200}** - Позиция ArenaFrame (только если ***C["SetPositions"] = true*** и ***C["ArenaFrameOn"]` = true***)
-- `C["ArenaFrameScale"]` = **1.1** - Маштаб ArenaEnemyFrames (только если ***C["ArenaFrameOn"]` = true***)
+- `C["ArenaFramePoint"]` = **{"TOPRIGHT", UIParent, "TOPRIGHT", -33, -200}** - Позиция ArenaFrame (только если ***C["SetPositions"] = true*** и ***C["ArenaFrameOn"] = true***)
+- `C["ArenaFrameScale"]` = **1.0** - Маштаб ArenaEnemyFrames (только если ***C["ArenaFrameOn"]` = true***)
 - `C["ArenaFrameFont"]` = **{"Fonts\\\FRIZQT__.TTF", 7, "OUTLINE"}** - Шрифт (Имя с путем, размер шрифта, граница шрифта)
 
 = Modules =
 - `C["HealthPercentage"]` = **false** - Проценты на таргет фрейме *(true/false)*
+- `C["ArenaFrame_Trinkets"]` = **true** - Включить отображение аренатринкета на аренафреймах *(true/false)* (только если ***C["ArenaFrameOn"] = true***)
+- `C["ArenaFrame_Trinket_Voice"]` = **true** - Звуковое оповещение о использовании тринкета арена юнитами *(true/false)* (только если ***C["ArenaFrameOn"] = true***)
 -----------------------------------------------------

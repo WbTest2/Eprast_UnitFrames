@@ -69,6 +69,6 @@
 
 = Modules =
 - `C["HealthPercentage"]` = **false** - Проценты на таргет фрейме *(true/false)*
-- `C["ArenaFrame_Trinkets"]` = **true** - Включить отображение аренатринкета на аренафреймах *(true/false)* (только если ***C["ArenaFrameOn"] = true***)
-- `C["ArenaFrame_Trinket_Voice"]` = **true** - Звуковое оповещение о использовании тринкета арена юнитами *(true/false)* (только если ***C["ArenaFrameOn"] = true***)
+- `C["ArenaFrame_Trinkets"]` = **false** - Включить отображение аренатринкета на аренафреймах *(true/false)* (только если ***C["ArenaFrameOn"] = true***)
+- `C["ArenaFrame_Trinket_Voice"]` = **false** - Звуковое оповещение о использовании тринкета арена юнитами *(true/false)* (только если ***C["ArenaFrameOn"] = true***)
 -----------------------------------------------------

@@ -11,7 +11,7 @@ do
 		EprastPlayerFrame:SetPoint(unpack(C.PlayerFramePoint));
 		TargetFrame:SetPoint(unpack(C.TargetFramePoint));
 		K.EprastBossFrame:SetPoint(unpack(C.BossTargetFramePoint));
-		K.EprastPartyFrame:SetPoint(unpack(C.PartyMemberFramePoint));
+		if (K.EprastPartyFrame) then K.EprastPartyFrame:SetPoint(unpack(C.PartyMemberFramePoint)); end;
 	end;
 end;
 

@@ -35,7 +35,7 @@
 - `C["darkFrames"]` = **true** - Темные фреймы *(true/false)*
 - `C["SetPositions"]` = **false** - Включить возможность изменения позиции фреймов *(true/false)*
 - `C["Font"]` = **{"Interface\\AddOns\\"..AddOnName.."\\Media\\Fonts\\PTSansNarrow.ttf", 11, "OUTLINE"};**	--	Шрифт;
-`C["FontName"]` = **{"Interface\\AddOns\\"..AddOnName.."\\Media\\Fonts\\PTSansNarrow.ttf", 11};**	--	Шрифт Имя;
+-`C["FontName"]` = **{"Interface\\AddOns\\"..AddOnName.."\\Media\\Fonts\\PTSansNarrow.ttf", 11};**	--	Шрифт Имя;
 
 = PlayerFrame =
 - `C["PlayerFramePoint"]` = **{"TOPLEFT", UIParent, "TOPLEFT", 239, -4}** - Позиция PlayerFrame (только если ***C["SetPositions"] = true***)

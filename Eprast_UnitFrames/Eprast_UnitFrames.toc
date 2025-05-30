@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Title: Eprast_UnitFrames
-## Author: Gebbet
-## Version: 0.96b
+## Author: WbTest2
+## Version: v0.9.6-beta
 
 Eprast_UnitFrames.xml
 

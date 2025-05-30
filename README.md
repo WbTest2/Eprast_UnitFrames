@@ -34,6 +34,8 @@
 [Пример:](https://colorscheme.ru/html-colors.html) `IndianRed RGB: 205, 92, 92` -> ***RGB(0.0-1.0): 205/255, 92/255, 92/255** или **0.8, 0.36, 0.36***
 - `C["darkFrames"]` = **true** - Темные фреймы *(true/false)*
 - `C["SetPositions"]` = **false** - Включить возможность изменения позиции фреймов *(true/false)*
+- `C["Font"]` = **{"Interface\\AddOns\\"..AddOnName.."\\Media\\Fonts\\PTSansNarrow.ttf", 11, "OUTLINE"};**	--	Шрифт;
+`C["FontName"]` = **{"Interface\\AddOns\\"..AddOnName.."\\Media\\Fonts\\PTSansNarrow.ttf", 11};**	--	Шрифт Имя;
 
 = PlayerFrame =
 - `C["PlayerFramePoint"]` = **{"TOPLEFT", UIParent, "TOPLEFT", 239, -4}** - Позиция PlayerFrame (только если ***C["SetPositions"] = true***)

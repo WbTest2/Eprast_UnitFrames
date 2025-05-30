@@ -1,4 +1,4 @@
-# Eprast_UnitFrames 1.0a - Wrath of the Lich King (3.3.5a)
+# Eprast_UnitFrames 1.0-alpha - Wrath of the Lich King (3.3.5a)
 -----------------------------------------------------
 <details>
 <summary>**Player & Target frames:**</summary>

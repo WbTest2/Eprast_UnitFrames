@@ -15,6 +15,7 @@ C["FontName"] = {"Interface\\AddOns\\"..AddOnName.."\\Media\\Fonts\\PTSansNarrow
 -- = PlayerFrame = ------------------------------------------------------------------
 C["PlayerFramePoint"] = {"TOPLEFT", UIParent, "TOPLEFT", 239, -4};	--	PlayerFrame position (Only if SetPositions is On);
 C["PlayerNameOffset"] = {0, 0};										--	PlayerName Offset;
+C["CombatFeedbackText"] = true;										--	Show CombatFeedbackText [true\false];
 
 -- = TargetFrame = ------------------------------------------------------------------
 C["TargetFramePoint"] = {"TOPLEFT", UIParent, "TOPLEFT", 509, -4};	--	TargetFrame position (Only if SetPositions is On);
@@ -48,4 +49,5 @@ C["ArenaFrameFont"] = {"Fonts\\FRIZQT__.TTF", 7, "OUTLINE"};				--	Font (Health 
 -- = Modules = -----------------------------------------------------------------
 C["HealthPercentage"] = true;
 C["ArenaFrame_Trinkets"] = true;	--	ArenaFrame Trinkets (Only if ArenaFrameOn is On);
+
 C["ArenaFrame_Trinket_Voice"] = true;

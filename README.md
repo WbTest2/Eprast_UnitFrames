@@ -40,7 +40,7 @@
 = PlayerFrame =
 - `C["PlayerFramePoint"]` = **{"TOPLEFT", UIParent, "TOPLEFT", 239, -4}** - Позиция PlayerFrame (только если ***C["SetPositions"] = true***)
 - `C["PlayerNameOffset"]` = **{0, 0}** - Смещение Имени **Player** по осям x,y
-- `C["CombatFeedbackText"]` = **true;**	-	Отображать CombatFeedbackText [true\false];
+- `C["CombatFeedbackText"]` = **true**	-	Отображать CombatFeedbackText [true\false];
 
 = TargetFrame =
 - `C["TargetFramePoint"]` = **{"TOPLEFT", UIParent, "TOPLEFT", 509, -4}** - Позиция TargetFrame (только если ***C["SetPositions"] = true***)

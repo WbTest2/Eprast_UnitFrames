@@ -6,6 +6,7 @@ local SetPositions = C.SetPositions;
 local statusbarTexture = C.statusbarTexture;
 local PlayerNameOffset = C.PlayerNameOffset;
 local Font = C.Font;
+local cfText = C.CombatFeedbackText;
 --------------------------------------------------------------------------------------------------------------------------------
 local hooksecurefunc = hooksecurefunc;
 local UnitFactionGroup, UnitIsPVP, UnitIsVisible, UnitPowerMax = UnitFactionGroup, UnitIsPVP, UnitIsVisible, UnitPowerMax;
@@ -13,7 +14,13 @@ local unpack = unpack;
 --------------------------------------------------------------------------------------------------------------------------------
 
 K.MoveFrame(PlayerFrame, "EprastPlayerFrame", "Player", 105, 27);	--	Move PlayerFrame;
-
+------------------------------------------------------------------------------------------
+PlayerFrame:UnregisterEvent("UNIT_COMBAT");
+PetFrame:UnregisterEvent("UNIT_COMBAT");
+if cfText then
+	K.CreateCombatFeedbackText(EprastPlayerFrame);
+end;
+------------------------------------------------------------------------------------------
 
 local Path = (darkFrames and "Dark") or "Light";
 

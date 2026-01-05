@@ -119,4 +119,24 @@ function K.CreateFont(Obj,Point, Name, Font, xOfs, yOfs, text, IsShown, textColo
 		FontString:SetTextColor(unpack(textColor));
 	end;
 end;
+--------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------
+-- Create CombatFeedbackText;
+---------------------------------------------------
+function K.CreateCombatFeedbackText(Frame)
+	local FontString = Frame:CreateFontString(nil, "OVERLAY", "NumberFontNormalHuge");
+	FontString:SetPoint("CENTER", Frame, "TOPLEFT", 75, -44);
+	FontString:Hide();
+	Frame:RegisterEvent("UNIT_COMBAT");
+	CombatFeedback_Initialize(Frame, FontString, 19);
+	Frame:SetScript("OnEvent", function(self, event, unit, ...)
+		CombatFeedback_OnCombatEvent(self, ...);
+	end);
+	Frame:SetScript("OnUpdate", function(self, elapsed)
+		CombatFeedback_OnUpdate(self, elapsed);
+	end);
+end;
+--------------------------------------------------------------------------------------------------------------------------------
+
 --	/run p,rTo,rP,x,y = FocusFrame.deadText:GetPoint(1);print(p,rTo:GetName(),rP,x,y);

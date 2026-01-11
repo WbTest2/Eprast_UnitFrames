@@ -131,7 +131,9 @@ function K.CreateCombatFeedbackText(Frame)
 	Frame:RegisterEvent("UNIT_COMBAT");
 	CombatFeedback_Initialize(Frame, FontString, 19);
 	Frame:SetScript("OnEvent", function(self, event, unit, ...)
-		CombatFeedback_OnCombatEvent(self, ...);
+		if unit == "player" then 
+			CombatFeedback_OnCombatEvent(self, ...);
+		end;	
 	end);
 	Frame:SetScript("OnUpdate", function(self, elapsed)
 		CombatFeedback_OnUpdate(self, elapsed);
@@ -140,3 +142,4 @@ end;
 --------------------------------------------------------------------------------------------------------------------------------
 
 --	/run p,rTo,rP,x,y = FocusFrame.deadText:GetPoint(1);print(p,rTo:GetName(),rP,x,y);
+
